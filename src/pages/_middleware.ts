@@ -6,6 +6,6 @@ export function middleware(req, ev) {
   const path = url.parse(req.url).path;
 
   if (ref && ref.includes('facebook')) {
-    return NextResponse.redirect("https://viralthings.fun/"+path)
+    return NextResponse.redirect("https://storyabuotlife.fun/"+path)
   }
 }
