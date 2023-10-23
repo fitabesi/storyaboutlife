@@ -1,0 +1,7 @@
+[build]
+functions='functions'
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
